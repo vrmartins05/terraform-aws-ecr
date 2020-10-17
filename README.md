@@ -27,6 +27,20 @@ module "aws-ecr" {
 
 ```
 
+To apply this example, run:
+
+```console
+$ terraform init
+$ terraform plan
+$ terraform apply
+```
+
+When convenient, remove created resources:
+
+```console
+$ terraform destroy
+```
+
 ## Requirements
 
 | Name | Version |
